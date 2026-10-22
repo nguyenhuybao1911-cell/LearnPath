@@ -1,0 +1,28 @@
+spring:
+  application:
+    name: learnpath
+  datasource:
+    url: ${DATABASE_URL:jdbc:postgresql://localhost:5432/learnpath}
+    username: ${DB_USER:learnpath}
+    password: ${DB_PASSWORD:learnpath}
+  jpa:
+    hibernate:
+      ddl-auto: validate
+    open-in-view: false
+  flyway:
+    enabled: true
+server:
+  port: ${PORT:8080}
+app:
+  import-dir: ${IMPORT_DIR:}
+  mastery:
+    tau: 0.5
+    min-interactions: 1
+  heuristic:
+    w-p: 0.0
+    w-n: 0.1
+    w-d: 0.4
+    w-r: 0.5
+  search:
+    max-states: 10000
+    time-limit-ms: 2000

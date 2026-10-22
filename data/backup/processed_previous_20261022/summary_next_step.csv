@@ -1,0 +1,4 @@
+﻿method,mean_next_step_accuracy,std_across_learners,std_between_random_runs,observations
+fixed_eligible,0.0,0.0,0,5
+random_eligible,0.0,0.0,0.0,100
+best_first_heuristic,0.0,0.0,0,5

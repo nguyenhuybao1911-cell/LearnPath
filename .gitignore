@@ -1,0 +1,12 @@
+.m2/
+backend/target/
+frontend/node_modules/
+frontend/dist/
+__pycache__/
+*.py[cod]
+data/MOOCCubeX/
+data/TEMPO-DQ-Framework/
+data/raw/
+data/processed/
+data/staging/
+.env

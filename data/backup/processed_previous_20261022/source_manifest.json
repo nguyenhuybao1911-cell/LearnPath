@@ -1,0 +1,30 @@
+{
+  "source": "MOOCCubeX",
+  "retrieved_at": "2026-10-21",
+  "files": [
+    {
+      "relative_path": "entities/concept.json",
+      "url": "https://lfs.aminer.cn/misc/moocdata/data/mooccube2/entities/concept.json",
+      "size_bytes": 162964332,
+      "sha256": "91492ad6bb7ba1cb152acc28d11cb961005f0e8ff64e95fc3cf5c0c5385d4cf4"
+    },
+    {
+      "relative_path": "relations/concept-problem.txt",
+      "url": "https://lfs.aminer.cn/misc/moocdata/data/mooccube2/relations/concept-problem.txt",
+      "size_bytes": 1294994,
+      "sha256": "7f8aaeb76fd78efbcf3bc1194d484b888d3dc1602e0229601ef6007577617406"
+    },
+    {
+      "relative_path": "prerequisites/cs.json",
+      "url": "https://lfs.aminer.cn/misc/moocdata/data/mooccube2/prerequisites/cs.json",
+      "size_bytes": 90196535,
+      "sha256": "a7bef9c1c05975f17afe9e4d363bd5b2c84c01792aeac802ab241c113ee75cd8"
+    },
+    {
+      "relative_path": "relations/user-problem.json",
+      "url": "https://lfs.aminer.cn/misc/moocdata/data/mooccube2/relations/user-problem.json",
+      "size_bytes": 22453311654,
+      "sha256": "dd0d771f73263a218aaccf7340333627ef13e5f2ec4bc235ad0b339a13112e90"
+    }
+  ]
+}

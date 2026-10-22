@@ -1,0 +1,18 @@
+services:
+  postgres:
+    image: postgres:17-alpine
+    environment:
+      POSTGRES_DB: ${POSTGRES_DB:-learnpath}
+      POSTGRES_USER: ${POSTGRES_USER:-learnpath}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-learnpath}
+    ports:
+      - "5432:5432"
+    volumes:
+      - learnpath-postgres:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER:-learnpath} -d ${POSTGRES_DB:-learnpath}"]
+      interval: 5s
+      timeout: 3s
+      retries: 20
+volumes:
+  learnpath-postgres:

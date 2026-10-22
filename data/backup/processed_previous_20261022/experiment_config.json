@@ -1,0 +1,24 @@
+{
+  "locked": true,
+  "selected_on": "validation",
+  "domain": "cs",
+  "target_id": "K_系统启动_计算机科学与技术",
+  "tau": 0.5,
+  "min_interactions": 1,
+  "weights": {
+    "p": 0.0,
+    "n": 0.1,
+    "d": 0.4,
+    "r": 0.5
+  },
+  "validation_ndcg_at_k": 0.0,
+  "validation_learners": 5,
+  "top_k": 5,
+  "future_window_days": 14,
+  "sample_max_learners": 500,
+  "seed": 42,
+  "random_runs": 20,
+  "max_states": 10000,
+  "time_limit_ms": 2000,
+  "tie_break": "concept ID ascending, then path tuple ascending"
+}

@@ -1,0 +1,9 @@
+{
+  "domain": "cs",
+  "seed": 42,
+  "max_learners": null,
+  "train_ratio": 0.7,
+  "validation_ratio": 0.15,
+  "input_directory": "data\\raw\\mooccubex",
+  "streaming_json_chunk_bytes": 1048576
+}
