@@ -8,6 +8,7 @@ Demo cá nhân hóa lộ trình học theo Greedy Best-First Search và hàm heu
 - Đã chạy 26 kiểm thử Python và rà soát các file dữ liệu sau khi làm sạch. File unmatched được đọc hết và kiểm CRC trước khi xóa; raw và file tạm đã dọn để tiết kiệm dung lượng.
 - Đã kiểm tra PostgreSQL/API trên database riêng `learnpath_candidate_20261022`; nạp hai lần không tăng số dòng. Database cũ không bị thay đổi.
 - Phần đã hoàn thành trong phạm vi phân công: dữ liệu ngày 1–2 của An và ngày 2 của Bảo. Các phần việc các ngày sau chưa được tính là hoàn thành.
+- Kiểm tra truy cập dữ liệu thành công tại thư mục data/backup/processed_previous_20261022, xác định các trường dữ liệu cốt lõi (concepts.csv, interactions_clean.csv, prerequisites.csv) và thống nhất chọn lĩnh vực chạy thử nghiệm là (Computer Science)
 
 Chi tiết số liệu và giới hạn nằm trong [báo cáo kiểm tra dữ liệu](docs/data_audit.md) và [báo cáo Word](docs/bao_cao_tien_do_xu_ly_data.docx).
 
